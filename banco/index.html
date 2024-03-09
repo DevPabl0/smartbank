@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Banco</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <a href="https://storyset.com/app"></a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="circle">
+    </div>
+    
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <h2 class="logo">Smart<span>Bank</span> 
+        <box-icon name='bank' type='solid' color='#2bdbdb' class="box-icon"></box-icon></h2>
+       
+        <nav class="navegation">
+            <a href="#home" class="active">Página Inicial</a>
+            <a href="#about">Sobre nós</a>
+            <a href="#services">Para você</a>
+            <a href="#contact">Contato</a>
+            
+        </nav>
+        
+        <div class="button">
+            <a href="cadastro.html"><button class="btn"> Cadastre-se</button></a>
+            <button class="btnLogin-popup">Login</button>
+        </div>
+        
+    </header>
+    <main>
+        <div class="wrapper">
+            <span class="icon-close">
+                <ion-icon name="close"></ion-icon>
+            </span>
+            <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">Lembre-me</label>
+                        <a href="#">Esqueceu a senha?</a>
+                        
+    
+                </div>
+                <button type="submit" class="btn">Login</button>
+           
+                <div class="login-register">
+                <p>
+                    Não tem uma conta?
+                
+                    <a href="#" class="register-link">Registro</a>
+                </p>
+                
+                </div>
+                
+       
+            </form>
+        </div>
+    
+        <div class="form-box register">
+            <h2>Registro</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">Eu aceito os termos & condições.</label>
+                        
+            
+                </div>
+                <button type="submit" class="btn">Registre-se</button>
+                <div class="login-register">
+                <p>
+                    Já tem uma conta?
+                    <a href="#" class="login-link">Login</a>
+                </p>
+                
+        </div>
+            </form>
+        </div>
+    </div>
+        <section class="home" id="home">
+            <div class="circle"></div>
+            <div class="content">
+                <h2>
+                    Bem-vindo ao Smart<span>Bank</span> - A revolução digital no mundo bancário!</h2>
+                <p>No Smart Bank, estamos redefinindo a forma como você lida com seu dinheiro. Somos um banco digital totalmente inovador, projetado para atender às necessidades modernas e dinâmicas da vida financeira atual. Combinamos tecnologia de ponta, segurança avançada e uma experiência do usuário excepcional para proporcionar a você a liberdade e o controle que você merece.</p>
+                <button class="bt">Saber Mais</button>
+            </div>
+          
+            <div class="img">
+                <!-- lembrar de por imagem aqui -->
+                <img src="img/E-Wallet-pana.svg" alt="">
+                
+            </div>
+        </section>
+        
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/undraw_mobile_pay_re_sjb8.svg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading"> Sobre <span>Nós</span></h2>
+               
+                <p>A Smart Bank é uma empresa de banco totalmente online fundada por Pablo Machado Marques e Robson Teixeira de Morais. A ideia surgiu durante uma aula na instituição de ensino ETEC, onde os dois estudavam. Eles perceberam que havia uma necessidade de um banco que pudesse ser acessado de qualquer lugar e a qualquer hora, sem a necessidade de ir a uma agência física. Assim, eles decidiram criar a Smart Bank, um banco totalmente online que oferece todos os serviços bancários de forma rápida e fácil. Com o tempo, a Smart Bank cresceu e se tornou um dos principais bancos online do país, graças à visão e dedicação de seus fundadores.</p>
+             <button class="btnr">Ver mais</button>
+            </div>
+        </section>
+        
+    <section class="services" id="services">
+        <h2 class="heading">Nossos <span>Serviços</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-coin' ></i>
+                <h3>Empréstimo</h3>
+                <p>Com taxas competitivas e condições flexíveis,  a Smart Bank ajuda seus clientes a alcançar seus objetivos financeiros, seja para realizar um sonho, investir em um negócio ou lidar com uma emergência financeira.
+
+                    </p>
+                <button class="btnr">Ver mais</button>
+
+            </div>
+            <div class="services-box">
+                <i class='bx bx-credit-card'></i>
+                <h3>Cartão de crédito</h3>
+                <p>A Smart Bank oferece cartões de crédito com benefícios exclusivos para seus clientes, incluindo programas de recompensas, descontos em compras e muito mais. Com um cartão de crédito da Smart Bank, os clientes podem fazer compras com segurança e praticidade.</p>
+             <button class="btnr">Ver mais</button>
+                
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Investimento</h3>
+                <p>Investimentos: A Smart Bank oferece uma ampla gama de opções de investimento para ajudar seus clientes a fazer seu dinheiro render mais. Com a ajuda de especialistas em investimentos, os clientes podem escolher entre diferentes produtos financeiros para atender às suas necessidades e perfil de risco.</p>
+                <button class="btnr">Ver mais</button>
+
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>Contato</span>  </h1>
+        <div class="row">
+          
+            <form action="">
+                <h3>Fala com nós</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Nome">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Número">
+                </div>
+                <input type="submit" value="FALAR AGORA" class="btn">
+            </form>
+        </div>
+    </section>
+    
+    </main>
+    
+    <footer class="footer" >
+        <div class="container-footer">
+         <div class="row">
+           <div class="footer-col">
+
+           
+              <a href="#">Feito por Pablo Machado Marques | RM:23177 | e Robson Teixeira de Morais| RM:23296 
+              </a>
+            
+           </div>
+         
+           </div>
+           <div class="footer-col">
+             <h4>Segue a gente</h4>
+             <div class="social-links">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+           </div>
+         </div>
+        </div>
+     </footer>
+   
+        <!-- java script -->
+        <script src="main.js"></script>
+       
+
+        
+</body>
+</html>
